@@ -13,6 +13,7 @@
 		8D1B26641D6AD838003DA5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1B26621D6AD838003DA5FD /* Main.storyboard */; };
 		8D1B26661D6AD838003DA5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1B26651D6AD838003DA5FD /* Assets.xcassets */; };
 		8D1B26691D6AD838003DA5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1B26671D6AD838003DA5FD /* LaunchScreen.storyboard */; };
+		8D1B26711D6ADFC7003DA5FD /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8D1B26701D6ADFC7003DA5FD /* build.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8D1B26651D6AD838003DA5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D1B26681D6AD838003DA5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D1B266A1D6AD838003DA5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1B26701D6ADFC7003DA5FD /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		8D1B264D1D6AD838003DA5FD = {
 			isa = PBXGroup;
 			children = (
+				8D1B26701D6ADFC7003DA5FD /* build.sh */,
 				8D1B26581D6AD838003DA5FD /* TestFir+Jenkins */,
 				8D1B26571D6AD838003DA5FD /* Products */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1B26691D6AD838003DA5FD /* LaunchScreen.storyboard in Resources */,
+				8D1B26711D6ADFC7003DA5FD /* build.sh in Resources */,
 				8D1B26661D6AD838003DA5FD /* Assets.xcassets in Resources */,
 				8D1B26641D6AD838003DA5FD /* Main.storyboard in Resources */,
 			);
@@ -300,6 +304,7 @@
 				8D1B266F1D6AD838003DA5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
